@@ -2,25 +2,25 @@
 
 Welcome to the 'Web-projects' repository! This repository is dedicated to hosting various beginner-friendly web (design) projects to help you learn and practice web development.
 
-Technologies:
+<h2>Technologies:</h2>
 
 1. HTML
 2. CSS
 3. JavaScript
 4. BootStrap
 
-Projects:
+<h2>Projects:</h2>
 
 1. Calculator
 2. Portfolio
 3. Snapchat login form
 4. landing page
 
-How to Use:
+<h2>How to Use:</h2>
 
 Each project is contained in its own folder within the repository. You can simply navigate to the project folder to access the project files and code. Feel free to explore, modify, and learn from the projects.
 
-Getting Started:
+<h2>Getting Started:</h2>
 
 To get started with a project:
 Clone the repository to your local machine.
