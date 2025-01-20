@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <head>
+    <!-- Add Font Awesome CDN -->
+    <head>
+      <!-- Font Awesome CDN link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  
+</head>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div id="logo" class="navbar-brand">Portfolio</div>
+    <ul class="navbar-menu">
+       <li><a id="home-link" href="#home">Home</a></li>
+       <li><a id="about-link" href="#about">About</a></li>
+       <li><a id="skills-link" href="#skills">Skills</a></li>
+       <li><a id="projects-link" href="#projects">Projects</a></li>
+       <li><a id="achievements-link" href="#achievements">Achievements</a></li>
+    </ul>
+    <div id="menu-toggle" class="navbar-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+<section id="home">
+  <div id="home" class="rock"> 
+    <div class="portfolio-container">
+       <div class="images">
+          <img src="./images/Paras.jpeg" alt="Profile Picture">
+       </div>
+       <div class="contents">
+          <h1>Hi, I'm <span style="color: rgb(204, 202, 47);">Paras Bahal</span></h1>
+          <h3>Frontend Developer</h3>
+          <p>
+             I am a passionate frontend developer with expertise in creating responsive and visually appealing websites.
+             I love to work on new and exciting projects.
+          </p>
+          <a href="Paras_Resume_ (2).pdf" download="Paras_Bahal_Resume" class="cv-btn">Download CV</a>
+          <button class="social-btn" onclick="toggleSocialPlatforms()">Social Platforms</button>
+          <div id="social-platforms" class="social-container" style="display: none;">
+             <a href="https://www.instagram.com/coder_hunt?igsh=bGxmNXJ4bmE0Z3N5" target="_blank" class="social-link">
+                <img src="./images/insta.png" alt="Instagram" style="width: 30px;">
+             </a>
+             <a href="https://youtube.com/@coder_hunt2004?si=mKJR2R1tqzNZwuLQ" target="_blank" class="social-link">
+                <img src="./images/youtube-logo-png-46031.png" alt="YouTube" style="width: 30px;">
+             </a>
+             <a href="https://github.com/ParasBahal11" target="_blank" class="social-link">
+                <img src="./images/github-logo.png" alt="GitHub" style="width:30px ;">
+             </a>
+             <a href="https://www.linkedin.com/in/paras-bahal-2306b123a/" target="_blank" class="social-link">
+                <img src="./images/link.png" alt="LinkedIn" style="width: 30px;">
+             </a>
+          </div>
+       </div>
+    </div>
+</div>
+<section>
+   <section id="about">
+  <div id="about" class="about-section">
+    <div class="about-container">
+      <h2>About Me:<hr></h2>
+      <p>
+        Hi, I'm <span style="color: rgb(204, 202, 47);">Paras Bahal</span>, a passionate Frontend Developer and Android Developer from India. I specialize in creating responsive, visually appealing, and user-friendly web applications. 
+      </p>
+      <h3>Education<hr></h3>
+      <ul>
+        <li><strong><span style="color: rgba(152, 215, 104, 0.997);"> Schooling:</span></strong> I completed my schooling at <em><strong>Jamuna Christian Inter College Prayagraj</strong></em>, where I developed a keen interest in creativity and technology.</li><br>
+        <li><strong><span style="color: rgb(152, 215,104,0.997);">College:</span></strong> I graduated with a Bachelor of Computer Applications (BCA) from <em><strong>United Institute of Management Prayagraj </strong></em>. My college years were instrumental in building my foundation in software development and honing my problem-solving skills.</li>
+      </ul>
+      <h3>Hobbies<hr></h3>
+      <ul>
+       <li>Exploring new web technologies and frameworks</li>
+        <li>Playing strategy puzzle games ,Cricket and Rackets</li>
+        <li> Art and Dance</li>
+       
+        <li>Traveling and discovering new cultures</li>
+      </ul>
+      <h3>Interests<hr></h3>
+      <ul>
+       <li>UI/UX design and enhancing user experiences</li>
+        <li>Building creative and interactive frontend applications</li>
+        <li>Contributing to open-source projects</li>
+        <li>Building an interactive Android Applications for Users</li>
+      </ul>
+    </div>
+  </div>
+   </section>
+   <section id="skills">
+  <div id="skills" class="skills-section">
+    <div class="container skills-container">
+        <h2>My Skills:<hr></h2>
+        <p>
+            As a Frontend and Android Developer, I have expertise in various tools, programming languages, and frameworks to build high-quality applications and user interfaces.
+        </p>
+        <h3>Technical Skills<hr></h3>
+        <ul>
+            <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React</li>
+            <li><strong>Backend:</strong> Node.js, Express.js</li>
+            <li><strong>Database:</strong> MongoDB</li>
+        </ul>
+        <h3>Programming Languages<hr></h3>
+        <ul>
+               <li>C</li>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+        <h3>Tools and Technologies<hr></h3>
+        <ul>
+            <li>Git & GitHub</li>
+            <li>Figma (UI/UX Design)</li>
+            <li>Android Studio</li>
+
+            <li>VS Code</li>
+        </ul>
+    </div>
+</div>
+   </section>
+
+   <section id="project">
+<div id="projects" class="projects-section">
+  <div class="container projects-container">
+      <h2>My Projects:<hr></h2>
+      <p>Explore some of my key projects. Click on a project to view it on GitHub.</p>
+      <div class="projects-grid">
+          <div class="project-card" data-link="https://github.com/your-repo/project1">
+              <img src="./images/Screenshot 2025-01-18 113914.png" alt="Project 1">
+              <h3>Ticket Trek</h3>
+              <div class="money-popup">
+                <p>Get this project for only $100!</p>
+                <button>Buy Now</button>
+            </div>
+          </div>
+
+          <div class="project-card" data-link="https://github.com/your-repo/project2">
+              <img src="./images/Screenshot 2025-01-18 114541.png" alt="Project 2">
+              <h3>Jumpy Bird Game</h3>
+              <div class="money-popup">
+                <p>Get this project for only $80!</p>
+                <button>Buy Now</button>
+            </div>
+          </div>
+
+          <div class="project-card" data-link="https://github.com/your-repo/project3">
+              <img src="./images/Screenshot 2025-01-18 114748.png" alt="Project 3">
+              <h3>Text to Speech</h3>
+              <div class="money-popup">
+                <p>Get this project for only $50!</p>
+                <button>Buy Now</button>
+            </div>
+          </div>
+
+          <div class="project-card" data-link="https://github.com/your-repo/project1">
+            <img src="./images/Screenshot 2025-01-18 115110.png" alt="Project 1">
+            <h3>Rock Paper Sicssors</h3>
+            <div class="money-popup">
+              <p>Get this project for only $30!</p>
+              <button>Buy Now</button>
+          </div>
+        </div>
+
+
+        <div class="project-card" data-link="https://github.com/your-repo/project2">
+            <img src="./images/Screenshot 2025-01-18 115355.png" alt="Project 2">
+            <h3>Password Generator</h3>
+            <div class="money-popup">
+              <p>Get this project for only $20!</p>
+              <button>Buy Now</button>
+          </div>
+        </div>
+
+        <div class="project-card" data-link="https://github.com/your-repo/project3">
+            <img src="./images/Screenshot 2025-01-18 115714.png" alt="Project 3">
+            <h3>SnapChat login page</h3>
+            <div class="money-popup">
+              <p>Get this project for only $60!</p>
+              <button>Buy Now</button>
+          </div>
+        </div>
+
+        <div class="project-card" data-link="https://github.com/your-repo/project2">
+          <img src="./images/Screenshot 2025-01-18 115953.png" alt="Project 2">
+          <h3>ID Card</h3>
+          <div class="money-popup">
+            <p>Get this project for only $50!</p>
+            <button>Buy Now</button>
+        </div>
+      </div>
+
+      <div class="project-card" data-link="https://github.com/your-repo/project3">
+          <img src="./images/Screenshot 2025-01-18 120058.png" alt="Project 3">
+          <h3>Tic Tac Toe </h3>
+          <div class="money-popup">
+            <p>Get this project for only $50!</p>
+            <button>Buy Now</button>
+        </div>
+      </div>
+
+      </div>
+  </div>
+</div>
+   </section>
+
+   <section id="achievements">
+<div id="achievements" class="achievements-section">
+  <div class="achievements-container">
+     <h2>Achievements<hr></h2>
+     <p>Here are some of the notable achievements:</p>
+     <ul>
+        <li>
+           <strong>1st Place</strong> in Web Development Training 
+           <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" title="View on LinkedIn">
+              <img src="./images/link.png" alt="LinkedIn" class="linkedin-icon" />
+           </a>
+        </li>
+        <li>
+           <strong>Top 10</strong> in Coder Hunt Competition 
+         
+        </li>
+        <li>
+           Received a <strong>5-star rating</strong> on HackerRank 
+       
+              
+          
+        </li>
+        <li>
+           <strong>1st Place</strong> in "Feet on Fire" College Event 
+           <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" title="View on LinkedIn">
+              <img src="./images/link.png" alt="LinkedIn" class="linkedin-icon" />
+           </a>
+        </li>
+        <li>
+           Earned a <strong>Core Co-ordinator Certificate</strong> in College 
+           <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" title="View on LinkedIn">
+              <img src="./images/link.png" alt="LinkedIn" class="linkedin-icon" />
+           </a>
+        </li>
+        <li>
+           Earned an <strong>Android Development Certificate</strong> by <strong>Infosys</strong> 
+           <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" title="View on LinkedIn">
+              <img src="./images/link.png" alt="LinkedIn" class="linkedin-icon" />
+           </a>
+        </li>
+        <li>
+           Earned a <strong>C Programming Certificate</strong> from SoloLearn 
+           <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" title="View on LinkedIn">
+              <img src="./images/link.png" alt="LinkedIn" class="linkedin-icon" />
+           </a>
+        </li>
+        <li>
+           Earned a <strong>CSS Certificate</strong> from HackerRank 
+           <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" title="View on LinkedIn">
+              <img src="./images/link.png" alt="LinkedIn" class="linkedin-icon" />
+           </a>
+        </li>
+        <li>
+           Earned a <strong>Full Stack Development Certificate</strong> from Udemy 
+           <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" title="View on LinkedIn">
+              <img src="./images/link.png" alt="LinkedIn" class="linkedin-icon" />
+           </a>
+        </li>
+        <li>
+           Received a <strong>Graphics Certificate</strong> from Great Learning 
+           <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" title="View on LinkedIn">
+              <img src="./images/link.png" alt="LinkedIn" class="linkedin-icon" />
+           </a>
+        </li>
+     </ul>
+  </div>
+</div>
+   </section>
+
+
+<footer class="footer-section">
+  <div class="footer-container">
+     <h2>Stay Connected</h2>
+     <p>Follow us on social media and share your Contact Details with us!</p>
+
+     <!-- Social Links -->
+     <div class="footer-social-links">
+      <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+          <i class="fab fa-github"></i>
+      </a>
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+      </a>
+      <!-- New social link -->
+      <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+          <i class="fab fa-youtube"></i>
+      </a>
+  </div>
+  
+     <hr />
+
+     <!-- Feedback Form -->
+     <div class="footer-feedback">
+        <h3>Contact Details</h3>
+        <form action="#" method="POST">
+           <div class="form-group">
+              <label for="user-name">Name:</label>
+              <input type="text" id="user-name" name="user-name" placeholder="Enter your name" required>
+           </div>
+           <div class="form-group">
+              <label for="user-email">Email:</label>
+              <input type="email" id="user-email" name="user-email" placeholder="Enter your email" required>
+           </div>
+           <div class="form-group">
+              <label for="user-feedback">Address:</label>
+              <textarea id="user-feedback" name="user-feedback" placeholder="Share your Address" rows="4" required></textarea>
+           </div>
+           <button type="submit" class="feedback-submit">Submit Details</button>
+        </form>
+     </div>
+
+     <hr />
+
+     <!-- Navbar Links -->
+     <div class="footer-nav">
+        <ul>
+           <li><a href="#home">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#skills">Skills</a></li>
+           <li><a href="#projects">Projects</a></li>
+           <li><a href="#achievements">Achievements</a></li>
+          
+        </ul>
+     </div>
+
+     <hr />
+
+     <!-- Footer Bottom -->
+     <div class="footer-bottom">
+        <p>&copy; 2025 Portfolio (Paras Bahal). All Rights Reserved.</p>
+     </div>
+  </div>
+</footer>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>
