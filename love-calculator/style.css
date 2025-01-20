@@ -1,0 +1,42 @@
+body{
+background-color: rgb(255, 153, 127);
+}
+h1{
+ text-align: center;
+ color: rgb(4, 32, 84);
+}
+.container{
+ max-width: 200px;
+ margin: 40px auto;
+ padding: 20px;
+margin-top: 0px;
+height: 280px;
+text-align: center;
+border-radius: 10px;
+box-shadow:  0 1px 3px ;
+background: linear-gradient(to left, rgb(234, 30, 30) ,rgb(196, 178, 195));
+}
+button{
+  background-color: aquamarine;
+  border: none;
+  border-radius: 10px;
+  box-shadow:  1px 2px 3px ;
+  
+}
+
+label{
+ margin-right: 70px;
+ 
+
+}
+input {
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+.text1{
+  text-align: center;
+}
+
+
