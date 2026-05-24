@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: rgb(234, 235, 237);
+
+}
+
+.card {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 460px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 450px;
+    background-color: #fff;
+    box-shadow: 12px 3px 14px 5px rgb(140, 136, 136);
+
+}
+
+.paras {
+    width: 140px;
+    height: 130px;
+    position: absolute;
+    margin-left: 110px;
+    margin-bottom: 110px;
+    border: 1px solid;
+}
+
+.paras1 {
+    height: 50px;
+    width: 270px;
+    margin-top: 20px;
+    margin-bottom: 620px;
+
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 350px;
+    margin-left: 13px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    background: linear-gradient(45deg, #6d49ac, #1e21be);
+    margin-top: 80px;
+}
+
+.word p {
+
+    text-transform: capitalize;
+    transform: rotate(270deg);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+.content {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 200px;
+    gap: 10px;
+}
+
+.content p {
+    margin-top: 5px;
+}
+
+.container2 {
+    display: flex;
+    position: relative;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    background-color: transparent;
+    margin-left: 270px;
+}
+
+.word2 p {
+    transform: rotate(270deg);
+    font-size: 13px;
+    font-weight: bolder;
+
+}
